@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="flex">
+        <h1>Catch-A-Pokemon!</h1>
+        <div class="hamburger" id="togle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+    </header>
+    <section class="scoreboard">
+        <div class="wrapper flex">
+            <h2>How Many Pokemon Did YOU Catch?</h2>
+            <form class="add-items">
+            <input type="text" name="item" placeholder="Trainer's Name" required>
+            <input type="submit" value="+">
+            </form>
+            <ul class="score-list flex">
+                <li>Loading Score...</li>
+            </ul>
+        </div>
+    </section>
+    <section class="score-count flex">
+        <div class="level flex">
+            <h2>Level: </h2>
+            <span class="level-number">1</span>
+            <h2>Score: </h2>
+            <span class="score">0</span>
+        </div>
+        <button class="btn-start button">Play!</button>
+    </section>
+    <section class="game">
+      <div class="hole hole1">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole2">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole3">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole4">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole5">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole6">
+        <div class="mole"></div>
+      </div>
+    </section>
+</body>
+</html>
